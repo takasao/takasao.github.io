@@ -291,22 +291,31 @@ blockquote {
 
 // Presentations
 .presentations .year-heading {
-  color: #42b0f5;
+  color: #2f89d0;
   font-weight: 700;
 }
 
 .presentations .category-heading {
   font-size: 1.1rem;
   font-weight: 600;
+  color: #2f89d0;
+}
+
+[data-theme="dark"] .presentations .year-heading,
+[data-theme="dark"] .presentations .category-heading {
   color: #42b0f5;
 }
 
 .presentations .meeting-meta {
-  color: #fff;
+  color: var(--global-text-color);
 }
 .presentations .meeting-meta a {
-  color: #fff;
+  color: var(--global-text-color);
   text-decoration: underline;
+}
+[data-theme="dark"] .presentations .meeting-meta,
+[data-theme="dark"] .presentations .meeting-meta a {
+  color: #fff;
 }
 
 .presentations .talk-type {
@@ -314,7 +323,10 @@ blockquote {
 }
 
 .presentations .talk-type-invited {
-  color: #7ec8ff;
+  color: #2f89d0;
+}
+[data-theme="dark"] .presentations .talk-type-invited {
+  color: #42b0f5;
 }
 
 .about-subheading.small {
