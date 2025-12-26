@@ -10,7 +10,7 @@
     {% for y in years %}
       <h2 class="year-heading">{{ y }}</h2>
 
-      {% assign year_items = presentations | where: "year", y | sort: "date" | reverse %}
+      {%- assign year_items = presentations | where: "year", y -%}
       {% assign intl = year_items | where: "category", "International" %}
       {% assign domestic = year_items | where: "category", "Domestic" %}
 
