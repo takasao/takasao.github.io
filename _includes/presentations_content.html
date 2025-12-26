@@ -39,6 +39,11 @@
                 <span class="talk-type{% if is_invited %} talk-type-invited{% endif %}">({{ type }})</span>
               {% endif %}
             </div>
+            {% if talk.note %}
+            <div class="meeting-note">
+              {% if is_ja %}Note:{% else %}Note:{% endif %} {{ talk.note }}
+            </div>
+            {% endif %}
             {% if talk.link %}
               <div><a href="{{ talk.link }}" target="_blank" rel="noopener">{% if is_ja %}資料{% else %}Slides/Details{% endif %}</a></div>
             {% endif %}
