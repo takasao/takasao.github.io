@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate professor at <a href='https://www.musabi.ac.jp/'>Musashino Art University</a>, Tokyo, JAPAN
+# subtitle: Associate professor at <a href='https://www.musabi.ac.jp/'>Musashino Art University</a>, Tokyo, JAPAN
 lang: en
 alt_url: /ja/
 
