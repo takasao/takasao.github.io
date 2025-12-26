@@ -1,0 +1,62 @@
+- title: 基本情報
+  type: map
+  contents:
+    - name: 氏名
+      value: 高棹 真介
+    - name: 現職
+      value: 准教授
+    - name: 所属
+      value: 武蔵野美術大学 造形学部 教養文化・学芸員課程研究室
+
+- title: 学歴
+  type: time_table
+  contents:
+    - title: 博士（理学）修了
+      institution: 京都大学 大学院 理学研究科
+      year: 2016.03
+      description:
+        - 指導教員：柴田一成 教授
+    - title: 修士 修了
+      institution: 京都大学 大学院 理学研究科
+      year: 2013.03
+      description:
+        - 指導教員：柴田一成 教授
+    - title: 学士 取得
+      institution: 京都大学 理学部
+      year: 2011.03
+
+- title: 職歴
+  type: time_table
+  contents:
+    - title: 准教授
+      institution: 武蔵野美術大学 造形学部 教養文化・学芸員課程研究室
+      year: 2025.03 – 現在
+    - title: 助教
+      institution: 大阪大学 大学院理学研究科 宇宙地球科学専攻
+      year: 2020.03 – 2025.03
+    - title: 国立天文台フェロー（特任助教）
+      institution: 国立天文台
+      year: 2019.04 – 2020.03
+    - title: 日本学術振興会 特別研究員（PD）
+      institution: 名古屋大学（JSPS）
+      year: 2016.04 – 2019.03
+    - title: 非常勤講師
+      institution: 大同大学
+      year: 2016.04 – 2017.09
+    - title: 日本学術振興会 特別研究員（DC1）
+      institution: 京都大学（JSPS）
+      year: 2013.04 – 2016.03
+
+# - title: オープンソースプロジェクト
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-現在
+#       description: Jekyll テーマ（学術向け）
+
+- title: 受賞歴
+  type: time_table
+  contents:
+    - year: 2017.06
+      items:
+        - Division-E International Astronomical Union (IAU) PhD Prize
