@@ -290,6 +290,17 @@ blockquote {
 }
 
 // Presentations
+.presentations .year-heading {
+  color: #42b0f5;
+  font-weight: 700;
+}
+
+.presentations .category-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #42b0f5;
+}
+
 .presentations .meeting-meta {
   color: #fff;
 }

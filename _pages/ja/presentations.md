@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /ja/presentations/
-title: 発表
-description: 発表一覧（共通データを共有）
+title: 研究発表
+description: 研究発表一覧（日本語・英語ページで共通データを使用）
 lang: ja
 alt_url: /presentations/
 ---

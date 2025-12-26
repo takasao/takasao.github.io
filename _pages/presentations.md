@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /presentations/
-title: presentations
+title: Presentations
 description: Talks and presentations (shared data for both languages).
 lang: en
 alt_url: /ja/presentations/
