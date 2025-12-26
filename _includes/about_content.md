@@ -2,7 +2,7 @@
 <h2 class="about-subheading small">プロフィール</h2>
 名前：高棹真介（たかさおしんすけ）<br>
 身分：准教授<br>
-所属：武蔵野美術大学 造形学部 教養文化・学芸員課程研究室<br>
+所属：<a href="https://www.musabi.ac.jp/">武蔵野美術大学</a> 造形学部 教養文化・学芸員課程研究室<br>
 Email：stakasao_\<atmark\>_musabi.ac.jp<br>
 研究内容：天文学・宇宙物理学。<br>
 （特に、宇宙プラズマ物理、磁気流体力学、太陽物理、星・惑星形成、降着円盤、星磁場）
@@ -22,7 +22,7 @@ Shinsuke TAKASAO (Given name, SURNAME)<br>
 **Current status**<br>
 Associate professor<br>
 **Affiliation**<br>
-<a href='https://www.musabi.ac.jp/'>Musashino Art University</a> (in Tokyo, Japan)<br>
+<a href='https://www.musabi.ac.jp/english/'>Musashino Art University</a> (in Tokyo, Japan)<br>
 **Email address**<br>
 stakasao_\<atmark\>_musabi.ac.jp<br>
 **Research interests**<br>
