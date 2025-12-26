@@ -289,6 +289,23 @@ blockquote {
   min-width: 92px;
 }
 
+// Presentations
+.presentations .meeting-meta {
+  color: #fff;
+}
+.presentations .meeting-meta a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.presentations .talk-type {
+  margin-left: 6px;
+}
+
+.presentations .talk-type-invited {
+  color: #7ec8ff;
+}
+
 #light-toggle {
   padding: 0;
   border: 0;

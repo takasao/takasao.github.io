@@ -1,14 +1,560 @@
-- title_en: Sample Talk on Interaction Design
-  title_ja: インタラクションデザインに関するサンプル発表
-  event_en: Design Conference
-  event_ja: デザインカンファレンス
-  location: Tokyo, Japan
-  date: 2024-04-12
-  link: https://example.com/slides
+- year: 2025
+  category: International
+  title_en: "Star-disk connection: roles of stellar-scale processes (invited)"
+  event_en: "WORKSHOP: Unstable and Time-Variable Accretion Flows from Core to Disk to Star"
+  location: Toronto, Canada
+  date: 2025-10-15
+  type: invited
+- year: 2025
+  category: International
+  title_en: "Stellar-scale processes shaping the inner boundary conditions of protoplanetary disks (invited)"
+  event_en: "Exoplanets & Planet Formation Workshop 2025"
+  location: Kunming, China
+  date: 2025-08-25
+  type: invited
+- year: 2025
+  category: International
+  title_en: "Some lessons from studies of star-disk interaction (invited)"
+  event_en: "Circumplanetary Disks and Satellite Formation III"
+  location: Kyoto, Japan
+  date: 2025-01-26
+  type: invited
+- year: 2025
+  category: Domestic
+  title_ja: 核周円盤における磁場の役割
+  event_ja: 研究会「活動銀河核研究の発展と展望」
+  location: 北海道大学
+  date: 2025-09-22
+  type: oral
+- year: 2025
+  category: Domestic
+  title_ja: 星表面から迫る星・惑星形成の新展開（招待講演）
+  event_ja: 2025年度 第55回天文・天体物理若手夏の学校
+  location: 長野
+  date: 2025-08-29
+  type: invited
 
-- title_en: Visual Communication Workshop
-  title_ja: ビジュアルコミュニケーション・ワークショップ
-  event_en: Workshop Series
-  event_ja: ワークショップシリーズ
+- year: 2024
+  category: International
+  title_en: "Various types of winds generated through star-disk interactions (invited)"
+  event_en: "Jets and Young Stars: the Passage from Discovery to JWST and Beyond"
+  location: Mulranny, Ireland
+  date: 2024-09-02
+  type: invited
+- year: 2024
+  category: International
+  title_en: "Accretion and wind structures just around an accreting star (invited)"
+  event_en: "GRAVITY+ Workshop: Impact on star and planet formation"
+  location: Grenoble, France
+  date: 2024-06-11
+  type: invited
+- year: 2024
+  category: International
+  title_en: "Global MHD simulations of accretion onto a protostar from an MRI-turbulent disk"
+  event_en: "High Energy Density Science 2024 (HEDS2024)"
+  location: Yokohama, Japan
+  date: 2024-04-22
+  type: oral
+- year: 2024
+  category: International
+  title_en: "How do stellar magnetic fields influence the accretion and ejection processes around a protostar? (invited)"
+  event_en: "Magnetic Fields from Clouds to Stars (Bfields-2024)"
+  location: Mitaka, Japan
+  date: 2024-03-25
+  type: invited
+- year: 2024
+  category: International
+  title_en: "Impacts of stellar-scale processes on disk evolution (invited)"
+  event_en: "Simulating Physics in Celestial Ecosystems (SPiCE) workshop"
+  location: Tohoku University, Japan
+  date: 2024-03-18
+  type: invited
+- year: 2024
+  category: Domestic
+  title_ja: 対流的な原始星に接続する原始惑星系円盤での角運動量輸送
+  event_ja: 日本天文学会2024年秋季年会
+  location: 関西学院大学
+  date: 2024-09-11
+  type: oral
+- year: 2024
+  category: Domestic
+  title_ja: 磁気流体シミュレーションによる原始星への磁場・角運動量輸送の調査（ポスター）
+  event_ja: CfCA ユーザーズミーティング
+  location: 三鷹
+  date: 2024-01-29
+  type: poster
+
+- year: 2023
+  category: International
+  title_en: "Theory and observation of plasmoid-modulated magnetic reconnection (invited)"
+  event_en: "7th Asia Pacific Conference on Plasma Physics (AAPPS-DPP2023)"
+  location: Nagoya, Japan
+  date: 2023-11-12
+  type: invited
+- year: 2023
+  category: International
+  title_en: "3D MHD simulations of star-disk interaction (invited, online)"
+  event_en: "Magnetohydrodynamical flows in young circumstellar disks"
+  location: Castle Ringberg, Germany
+  date: 2023-10-01
+  type: invited
+- year: 2023
+  category: International
+  title_en: "A closer look at star-disk interaction of young stars (invited)"
+  event_en: "2nd Athena++ Workshop"
+  location: Flatiron Institute, USA
+  date: 2023-05-08
+  type: invited
+- year: 2023
+  category: International
+  title_en: "3D MHD simulations of magnetospheric accretion in protostars and T Tauri stars (poster)"
+  event_en: "Protostars and Planets VII"
+  location: Kyoto, Japan
+  date: 2023-04-10
+  type: poster
+- year: 2023
+  category: Domestic
+  title_ja: 磁気流体シミュレーションによる原始星への磁場・角運動量輸送の調査（ポスター）
+  event_ja: 第36回 理論懇シンポジウム
+  location: 弘前大学
+  date: 2023-12-25
+  type: poster
+- year: 2023
+  category: Domestic
+  title_ja: 星を分解する原始星降着の磁気流体シミュレーションの現状報告
+  event_ja: 新学術領域「星・惑星形成」2023年度大研究会
+  location: 名古屋大学
+  date: 2023-12-04
+  type: oral
+- year: 2023
+  category: Domestic
+  title_ja: 原始ガス惑星降着に対する磁気圏降着シミュレーションからの示唆（招待講演）
+  event_ja: 形成中の惑星およびその兆候に関する勉強会（オンライン）
+  location: オンライン
+  date: 2023-06-15
+  type: invited
+- year: 2023
+  category: Domestic
+  title_ja: 前主系列星のスピンダウン問題に対する解決策の提案
+  event_ja: 日本天文学会2023年春季年会
+  location: 立教大学＋オンライン
+  date: 2023-03-13
+  type: oral
+- year: 2023
+  category: Domestic
+  title_ja: 原始星のスピンダウン問題に関する考察
+  event_ja: 新学術領域「星・惑星形成」2022年度大研究会
+  location: 三鷹＋オンライン
+  date: 2023-02-20
+  type: oral
+- year: 2023
+  category: Domestic
+  title_ja: 星形成における星・円盤相互作用の３次元磁気流体シミュレーション（ポスター）
+  event_ja: CfCA ユーザーズミーティング
+  location: 三鷹＋オンライン
+  date: 2023-01-26
+  type: poster
+
+- year: 2022
+  category: International
+  title_en: "3D MHD simulations of accreting young stars"
+  event_en: "IRCC-AFP 1st meeting"
+  location: Mitaka, Japan
+  date: 2022-10-24
+  type: oral
+- year: 2022
+  category: International
+  title_en: "3D MHD modeling of magnetospheric accretion in a T Tauri star"
+  event_en: "9th East Asian Numerical Astrophysics Meeting (EANAM9)"
+  location: Okinawa, Japan
+  date: 2022-09-26
+  type: oral
+- year: 2022
+  category: International
+  title_en: "Magnetic explosions on the Sun, solar-type stars, and accreting young stars (invited)"
+  event_en: "Plasma Explosions in the Universe"
+  location: Kyoto, Japan
+  date: 2022-09-06
+  type: invited
+- year: 2022
+  category: Domestic
+  title_ja: 原始星と星周円盤の相互作用（招待講演）
+  event_ja: 第35回 理論懇シンポジウム
+  location: 福島
+  date: 2022-12-21
+  type: invited
+- year: 2022
+  category: Domestic
+  title_ja: 原始星における星・円盤相互作用とその磁気流体的ダイナミクス（招待講演）
+  event_ja: 高エネルギー現象で探る宇宙の多様性Ⅱ
+  location: 東京大学宇宙線研究所
+  date: 2022-11-21
+  type: invited
+- year: 2022
+  category: Domestic
+  title_ja: 業界に横串を通す星・惑星形成研究（招待講演）
+  event_ja: 2040年代のスペース天文学研究会
+  location: 名古屋大学＋オンライン
+  date: 2022-11-14
+  type: invited
+- year: 2022
+  category: Domestic
+  title_ja: PhoENiX計画における数値シミュレーションの取り組み
+  event_ja: 太陽研連2022年度将来計画シンポジウム
+  location: オンライン
+  date: 2022-08-17
+  type: oral
+- year: 2022
+  category: Domestic
+  title_ja: 降着を受ける若い星の磁気活動に関する話題提供
+  event_ja: Stellar magnetic activity workshop 2022
+  location: 京都大学
+  date: 2022-05-12
+  type: oral
+- year: 2022
+  category: Domestic
+  title_ja: 太陽・星形成分野の問題解決に向けたアプローチについて
+  event_ja: SoLaBo-X Workshop
+  location: 京都＋オンライン
+  date: 2022-03-23
+  type: oral
+- year: 2022
+  category: Domestic
+  title_ja: 3次元シミュレーションでみえた新しい磁気圏降着の描像
+  event_ja: 新学術領域「星・惑星形成」2021年度大研究会
+  location: 名古屋大学＋オンライン
+  date: 2022-03-14
+  type: oral
+- year: 2022
+  category: Domestic
+  title_ja: 原始星の境界層降着に関する磁気流体計算
+  event_ja: 日本天文学会2022年春季年会
+  location: オンライン
+  date: 2022-03-02
+  type: oral
+- year: 2022
+  category: Domestic
+  title_ja: 降着を受ける原始ガス惑星からのHα放射に関するシミュレーション（招待講演）
+  event_ja: 形成中の惑星およびその兆候のALMA観測に向けた勉強会
+  location: オンライン
+  date: 2022-02-01
+  type: invited
+- year: 2022
+  category: Domestic
+  title_ja: 磁気圏降着を受ける前主系列星からのウィンド（ポスター）
+  event_ja: CfCA ユーザーズミーティング
+  location: オンライン
+  date: 2022-01-18
+  type: poster
+
+- year: 2021
+  category: International
+  title_en: "Numerical approaches for the understanding of particle acceleration during magnetic reconnection (invited)"
+  event_en: "Particle Acceleration in Solar Flares and the Plasma Universe"
   location: Online
-  date: 2023-11-03
+  date: 2021-11-15
+  type: invited
+- year: 2021
+  category: International
+  title_en: "3D MHD modeling of magnetospheric accretion from the turbulent disk"
+  event_en: "STAR FORMATION: FROM CLOUDS TO DISCS (Lee Hartmann tribute)"
+  location: Malahide, Ireland (hybrid)
+  date: 2021-10-18
+  type: oral
+- year: 2021
+  category: International
+  title_en: "Spontaneous formation of magnetically driven outflows powered by galactic-scale accretion flows in a galactic center"
+  event_en: "East-Asia AGN workshop 2021"
+  location: Chongqing, China (hybrid)
+  date: 2021-10-11
+  type: oral
+- year: 2021
+  category: International
+  title_en: "Solar-Stellar-Protostellar connection (invited)"
+  event_en: "5th Asia Pacific Conference on Plasma Physics (AAPPS-DPP2021)"
+  location: Online
+  date: 2021-09-26
+  type: invited
+- year: 2021
+  category: International
+  title_en: "Explosive phenomena on the Sun and protostars (invited)"
+  event_en: "High Energy Density Sciences 2021 (HEDS2021)"
+  location: Online
+  date: 2021-04-19
+  type: invited
+- year: 2021
+  category: International
+  title_en: "Hydrodynamic Simulations of H-alpha Emission from Accretion Shocks of Proto-Giant Planet and Circumplanetary Disk (poster)"
+  event_en: "Circumplanetary Disks and Satellite Formation II"
+  location: Online
+  date: 2021-03-15
+  type: poster
+- year: 2021
+  category: International
+  title_en: "3D MHD simulations of an accreting young star (poster)"
+  event_en: "Cool Stars 20.5"
+  location: Online
+  date: 2021-03-02
+  type: poster
+- year: 2021
+  category: Domestic
+  title_ja: 核周円盤への磁場の持ち込みと磁気駆動アウトフローの形成
+  event_ja: 超巨大ブラックホール研究会
+  location: オンライン
+  date: 2021-12-27
+  type: oral
+- year: 2021
+  category: Domestic
+  title_ja: Explosive magnetic energy release on the Sun and accreting young stars（招待講演）
+  event_ja: プラズマ・核融合学会第38回年会シンポジウム
+  location: オンライン
+  date: 2021-11-23
+  type: invited
+- year: 2021
+  category: Domestic
+  title_ja: 降着を受ける原始ガス惑星 PDS 70b からのHα放射に関する数値的研究（口頭）
+  event_ja: 日本天文学会2021年春季年会
+  location: オンライン
+  date: 2021-03-16
+  type: oral
+- year: 2021
+  category: Domestic
+  title_ja: Magnetically Arrested Diskの発現条件に関する理論研究（口頭＋ポスター）
+  event_ja: 日本天文学会2021年春季年会
+  location: オンライン
+  date: 2021-03-16
+  type: oral
+- year: 2021
+  category: Domestic
+  title_ja: 原始星における磁気圏降着構造の降着率依存性（ポスター）
+  event_ja: CfCA ユーザーズミーティング
+  location: オンライン
+  date: 2021-01-19
+  type: poster
+
+- year: 2020
+  category: International
+  title_en: "3D MHD simulation of magnetospheric accretion onto a protostar"
+  event_en: "4th Asia Pacific Conference on Plasma Physics"
+  location: Online
+  date: 2020-10-26
+  type: oral
+- year: 2020
+  category: Domestic
+  title_ja: "Accretion processes just around protostars: roles of magnetic fields（招待講演）"
+  event_ja: 初代星初代銀河研究会2020@仙台
+  location: 仙台＋オンライン
+  date: 2020-11-16
+  type: invited
+- year: 2020
+  category: Domestic
+  title_ja: 原始星・円盤相互作用モデルの現状
+  event_ja: 新学術領域「星惑星形成」2020年度大研究会
+  location: オンライン
+  date: 2020-09-30
+  type: oral
+- year: 2020
+  category: Domestic
+  title_ja: 磁気圏降着を受ける原始星のスピンダウンについて
+  event_ja: 日本天文学会2020年春季年会（中止・講演ファイル提出）
+  location: 筑波大学
+  date: 2020-03-16
+  type: oral
+- year: 2020
+  category: Domestic
+  title_ja: 高解像度流体シミュレーションによる原始ガス惑星への降着流の考察（ポスター）
+  event_ja: 日本天文学会2020年春季年会（中止・講演ファイル提出）
+  location: 筑波大学
+  date: 2020-03-16
+  type: poster
+- year: 2020
+  category: Domestic
+  title_ja: 原始惑星系円盤内側領域の大域的非理想磁気流体シミュレーション
+  event_ja: ポスト「京」萌芽的課題・計算惑星 第4回 公開シンポジウム
+  location: オンライン
+  date: 2020-03-09
+  type: oral
+- year: 2020
+  category: Domestic
+  title_ja: 太陽と他の星の磁気活動を比較：原始星フレア、恒星コロナ（招待講演）
+  event_ja: 太陽研究者連絡会
+  location: 国立天文台（三鷹）
+  date: 2020-02-17
+  type: invited
+- year: 2020
+  category: Domestic
+  title_ja: 磁気圏降着を受ける原始星の３次元磁気流体シミュレーション
+  event_ja: CfCA ユーザーズミーティング
+  location: 国立天文台（三鷹）
+  date: 2020-01-20
+  type: oral
+
+- year: 2019
+  category: International
+  title_en: "Three-dimensional MHD simulations of accretion onto magnetized stars"
+  event_en: "Planet Formation Workshop 2019"
+  location: Tokyo, Japan
+  date: 2019-11-25
+  type: oral
+- year: 2019
+  category: International
+  title_en: "Numerical investigation of the accretion process onto protostars (invited)"
+  event_en: "14th Asia-Pacific Physics Conference (APPC)"
+  location: Kuching, Malaysia
+  date: 2019-11-18
+  type: invited
+- year: 2019
+  category: International
+  title_en: "Numerical survey of flare-productive active regions (invited)"
+  event_en: "IUGG/IAGA 27th General Assembly"
+  location: Montreal, Canada
+  date: 2019-07-12
+  type: invited
+- year: 2019
+  category: International
+  title_en: "3D MHD simulations of accreting young stars"
+  event_en: "Athena++ workshop"
+  location: Las Vegas, USA
+  date: 2019-03-20
+  type: oral
+- year: 2019
+  category: International
+  title_en: "Accretion structure of inner protoplanetary disks"
+  event_en: "Max Planck Princeton Center Workshop 2019"
+  location: Tokyo, Japan
+  date: 2019-02-18
+  type: oral
+- year: 2019
+  category: International
+  title_en: "MHD simulations of intermittent outflows from inner protoplanetary disks (invited)"
+  event_en: "Dynamics and physics of outflows in protostellar disks and AGN"
+  location: Kagoshima, Japan
+  date: 2019-01-13
+  type: invited
+- year: 2019
+  category: Domestic
+  title_ja: 原始星の磁気圏降着に関する3次元磁気流体シミュレーション（ポスター）
+  event_ja: 理論懇シンポジウム
+  location: 国立天文台（三鷹）
+  date: 2019-12-25
+  type: poster
+- year: 2019
+  category: Domestic
+  title_ja: 太陽・恒星のフレアやコロナ加熱について（招待講演）
+  event_ja: 連星系・変光星研究会2019
+  location: 中京大学
+  date: 2019-11-29
+  type: invited
+- year: 2019
+  category: Domestic
+  title_ja: 極めてX線活動性の高いG型星の観測的特徴（ポスター）
+  event_ja: 日本天文学会2019年秋季年会
+  location: 熊本大学
+  date: 2019-09-11
+  type: poster
+- year: 2019
+  category: Domestic
+  title_ja: 磁気圏を持つ中心星への降着に関する3次元磁気流体シミュレーション（口頭）
+  event_ja: 日本天文学会2019年秋季年会
+  location: 熊本大学
+  date: 2019-09-11
+  type: oral
+- year: 2019
+  category: Domestic
+  title_ja: 原始星への降着に関する3次元磁気流体シミュレーション
+  event_ja: 星・惑星形成再検討会
+  location: 日間賀島（愛知）
+  date: 2019-08-08
+  type: oral
+- year: 2019
+  category: Domestic
+  title_ja: 原始惑星系円盤の降着が駆動する原始星フレア（ポスター）
+  event_ja: 日本地球惑星科学連合2019年大会
+  location: 幕張メッセ
+  date: 2019-05-26
+  type: poster
+- year: 2019
+  category: Domestic
+  title_ja: 3次元磁気流体シミュレーションによる原始星フレア研究
+  event_ja: CfCA ユーザーズミーティング
+  location: 国立天文台（三鷹）
+  date: 2019-01-15
+  type: oral
+
+- year: 2018
+  category: International
+  title_en: "Flares on the Sun and protostars (invited)"
+  event_en: "2nd Asia-Pacific Conference on Plasma Physics"
+  location: Kanazawa, Japan
+  date: 2018-11-12
+  type: invited
+- year: 2018
+  category: International
+  title_en: "Fast accretion onto a weakly magnetized star"
+  event_en: "ESO workshop “Take a Closer Look”"
+  location: Garching, Germany
+  date: 2018-10-15
+  type: oral
+- year: 2018
+  category: International
+  title_en: "Three-dimensional simulations of accretion onto a star from a magnetized accretion disk: Fast funnel-wall accretion (poster)"
+  event_en: "XXXth IAU General Assembly"
+  location: Vienna, Austria
+  date: 2018-08-20
+  type: poster
+- year: 2018
+  category: International
+  title_en: "Toward understanding of the production and evolution of large solar flares (IAU PhD award talk)"
+  event_en: "XXXth IAU General Assembly"
+  location: Vienna, Austria
+  date: 2018-08-20
+  type: invited
+- year: 2018
+  category: International
+  title_en: "Very inner structure of the accretion disk"
+  event_en: "core2disk workshop"
+  location: Orsay, France
+  date: 2018-05-14
+  type: oral
+- year: 2018
+  category: Domestic
+  title_ja: 若い星への降着に関する標準理論の再考
+  event_ja: 第31回 理論懇シンポジウム
+  location: 京都大学
+  date: 2018-12-19
+  type: oral
+- year: 2018
+  category: Domestic
+  title_ja: 強い磁場を持つ星周円盤の内縁における激しい降着
+  event_ja: 日本天文学会2018年秋季年会
+  location: 姫路
+  date: 2018-09-19
+  type: oral
+- year: 2018
+  category: Domestic
+  title_ja: 3次元磁気流体シミュレーションによる原始星への降着流の理解
+  event_ja: 新学術領域研究キックオフミーティング
+  location: 名古屋大学
+  date: 2018-09-13
+  type: oral
+- year: 2018
+  category: Domestic
+  title_ja: 太陽・恒星・星形成領域で見られる激しい爆発・ジェット現象の起源について（招待講演）
+  event_ja: 第48回天文・天体物理若手夏の学校
+  location: 愛知
+  date: 2018-07-23
+  type: invited
+- year: 2018
+  category: Domestic
+  title_ja: 原始惑星系円盤の大域的な構造と進化の理解に向けて
+  event_ja: ポスト「京」萌芽的課題・計算惑星 第2回 公開シンポジウム
+  location: 神戸大学
+  date: 2018-03-26
+  type: oral
+- year: 2018
+  category: Domestic
+  title_ja: 原始星近傍の降着流の円盤初期磁場依存性に関する磁気流体シミュレーション
+  event_ja: 日本天文学会2018年春季年会
+  location: 千葉大学
+  date: 2018-03-16
+  type: oral
