@@ -285,19 +285,6 @@ blockquote {
   }
 }
 
-.navbar.navbar-lang-en {
-  border-bottom: 2px solid var(--global-theme-color);
-}
-
-.navbar.navbar-lang-ja {
-  border-bottom: 2px solid #b66d3a;
-  background: linear-gradient(90deg, #f8f3ec 0%, var(--global-bg-color) 60%);
-}
-
-.navbar.navbar-lang-ja .nav-link {
-  font-weight: 600;
-}
-
 .lang-toggle .btn {
   min-width: 92px;
 }

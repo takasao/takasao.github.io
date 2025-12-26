@@ -1,11 +1,6 @@
 
     <header>
       {% assign current_lang = page.lang | default: site.lang | default: 'en' %}
-      {% if current_lang == 'ja' %}
-        {% assign nav_mode_class = 'navbar-lang-ja' %}
-      {% else %}
-        {% assign nav_mode_class = 'navbar-lang-en' %}
-      {% endif %}
 
       {% if current_lang == 'ja' %}
         {% assign nav_items = "/ja/|トップ,/ja/cv/|CV,/ja/publications/|出版物,/ja/presentations/|発表,/ja/projects/|プロジェクト" | split: "," %}
@@ -14,7 +9,7 @@
       {% endif %}
 
       <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {{ nav_mode_class }} {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
