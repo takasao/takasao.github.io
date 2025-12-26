@@ -203,8 +203,6 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
-  - _posts/2020-09-28-twitter.md
-  - _posts/2018-12-22-distill.md
   - bin
   - Gemfile
   - Gemfile.lock
