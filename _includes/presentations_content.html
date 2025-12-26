@@ -1,0 +1,29 @@
+<!-- Shared presentations rendering across languages. -->
+{% assign is_ja = page.lang == 'ja' %}
+{% assign presentations = site.data.presentations | default: [] %}
+
+{% if presentations == empty %}
+  <p>{% if is_ja %}発表の登録がまだありません。{% else %}No presentations are available yet.{% endif %}</p>
+{% else %}
+  <div class="presentations">
+    {% for talk in presentations %}
+      {% assign title = talk.title %}
+      {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
+
+      {% assign event = talk.event %}
+      {% if is_ja and talk.event_ja %}{% assign event = talk.event_ja %}{% elsif talk.event_en %}{% assign event = talk.event_en %}{% endif %}
+
+      <div class="presentation mb-4">
+        <h3 class="h5 mb-1">{{ title }}</h3>
+        <div class="text-muted">
+          {{ event }}
+          {% if talk.location %} · {{ talk.location }}{% endif %}
+          {% if talk.date %} · {{ talk.date | date: "%Y-%m-%d" }}{% endif %}
+        </div>
+        {% if talk.link %}
+          <div><a href="{{ talk.link }}" target="_blank" rel="noopener">{% if is_ja %}資料{% else %}Slides/Details{% endif %}</a></div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
