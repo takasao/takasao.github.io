@@ -1,6 +1,6 @@
 ---
 layout: about
-title: アバウト
+title: ホーム
 permalink: /ja/
 # subtitle: 武蔵野美術大学 准教授
 lang: ja
