@@ -1,12 +1,14 @@
 ---
 layout: page
-title: プロジェクト
+title: 研究
 permalink: /ja/projects/
-description: プロジェクト一覧
+description: 研究内容の紹介
 display_categories: [work, fun]
 horizontal: false
 lang: ja
 alt_url: /projects/
 ---
+論文はNASA/ADSの論文リストからご覧ください:<br>
+<a href="https://ui.adsabs.harvard.edu/public-libraries/xLRVzd0oSQCVTQYv68KK_w">主著論文のみのリスト</a>、<a href="https://ui.adsabs.harvard.edu/public-libraries/oNiJmdn7TuSNr2uEG0hVrg">共著論文も含めた全論文リスト</a>
 
 {% include projects_content.html %}
