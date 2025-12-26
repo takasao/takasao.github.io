@@ -3,9 +3,9 @@
       {% assign current_lang = page.lang | default: site.lang | default: 'en' %}
 
       {% if current_lang == 'ja' %}
-        {% assign nav_items = "/ja/|トップ,/ja/cv/|CV,/ja/publications/|出版物,/ja/presentations/|発表,/ja/projects/|プロジェクト" | split: "," %}
+        {% assign nav_items = "/ja/|トップ,/ja/cv/|CV,/ja/presentations/|発表,/ja/projects/|プロジェクト" | split: "," %}
       {% else %}
-        {% assign nav_items = "/|Home,/cv/|CV,/publications/|Publications,/presentations/|Presentations,/projects/|Projects" | split: "," %}
+        {% assign nav_items = "/|Home,/cv/|CV,/presentations/|Presentations,/projects/|Projects" | split: "," %}
       {% endif %}
 
       <!-- Nav Bar -->
