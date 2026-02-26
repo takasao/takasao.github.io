@@ -1,5 +1,9 @@
 <!-- Shared presentations rendering across languages. -->
-{% assign is_ja = page.lang == 'ja' %}
+{% assign current_lang = page.lang | default: site.lang | default: 'en' %}
+{% assign is_ja = false %}
+{% if current_lang == 'ja' %}
+  {% assign is_ja = true %}
+{% endif %}
 {% assign presentations = site.data.presentations | default: [] %}
 
 {% if presentations == empty %}
@@ -18,11 +22,13 @@
       {% if intl and intl.size > 0 %}
         <h3 class="category-heading">International meetings</h3>
         {% for talk in intl %}
-          {% assign title = talk.title %}
-          {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
-
-          {% assign event = talk.event %}
-          {% if is_ja and talk.event_ja %}{% assign event = talk.event_ja %}{% elsif talk.event_en %}{% assign event = talk.event_en %}{% endif %}
+          {% if is_ja %}
+            {% assign title = talk.title_ja | default: talk.title_en | default: talk.title %}
+            {% assign event = talk.event_ja | default: talk.event_en | default: talk.event %}
+          {% else %}
+            {% assign title = talk.title_en | default: talk.title_ja | default: talk.title %}
+            {% assign event = talk.event_en | default: talk.event_ja | default: talk.event %}
+          {% endif %}
 
           {% assign type = talk.type | default: '' %}
           {% assign is_invited = false %}
@@ -55,11 +61,13 @@
       {% if domestic and domestic.size > 0 %}
         <h3 class="category-heading mt-3">{% if is_ja %}国内会議{% else %}Domestic meetings{% endif %}</h3>
         {% for talk in domestic %}
-          {% assign title = talk.title %}
-          {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
-
-          {% assign event = talk.event %}
-          {% if is_ja and talk.event_ja %}{% assign event = talk.event_ja %}{% elsif talk.event_en %}{% assign event = talk.event_en %}{% endif %}
+          {% if is_ja %}
+            {% assign title = talk.title_ja | default: talk.title_en | default: talk.title %}
+            {% assign event = talk.event_ja | default: talk.event_en | default: talk.event %}
+          {% else %}
+            {% assign title = talk.title_en | default: talk.title_ja | default: talk.title %}
+            {% assign event = talk.event_en | default: talk.event_ja | default: talk.event %}
+          {% endif %}
 
           {% assign type = talk.type | default: '' %}
           {% assign is_invited = false %}
@@ -87,11 +95,13 @@
       {% if seminars_lectures and seminars_lectures.size > 0 %}
         <h3 class="category-heading mt-3">{% if is_ja %}セミナー/集中講義{% else %}Seminars/Intensive Lectures{% endif %}</h3>
         {% for talk in seminars_lectures %}
-          {% assign title = talk.title %}
-          {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
-
-          {% assign event = talk.event %}
-          {% if is_ja and talk.event_ja %}{% assign event = talk.event_ja %}{% elsif talk.event_en %}{% assign event = talk.event_en %}{% endif %}
+          {% if is_ja %}
+            {% assign title = talk.title_ja | default: talk.title_en | default: talk.title %}
+            {% assign event = talk.event_ja | default: talk.event_en | default: talk.event %}
+          {% else %}
+            {% assign title = talk.title_en | default: talk.title_ja | default: talk.title %}
+            {% assign event = talk.event_en | default: talk.event_ja | default: talk.event %}
+          {% endif %}
 
           {% assign type = talk.type | default: '' %}
           {% assign is_invited = false %}
