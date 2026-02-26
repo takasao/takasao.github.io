@@ -13,6 +13,7 @@
       {%- assign year_items = presentations | where: "year", y -%}
       {% assign intl = year_items | where: "category", "International" %}
       {% assign domestic = year_items | where: "category", "Domestic" %}
+      {% assign seminars_lectures = year_items | where: "category", "Seminars_Lectures" %}
 
       {% if intl and intl.size > 0 %}
         <h3 class="category-heading">International meetings</h3>
@@ -54,6 +55,38 @@
       {% if domestic and domestic.size > 0 %}
         <h3 class="category-heading mt-3">{% if is_ja %}国内会議{% else %}Domestic meetings{% endif %}</h3>
         {% for talk in domestic %}
+          {% assign title = talk.title %}
+          {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
+
+          {% assign event = talk.event %}
+          {% if is_ja and talk.event_ja %}{% assign event = talk.event_ja %}{% elsif talk.event_en %}{% assign event = talk.event_en %}{% endif %}
+
+          {% assign type = talk.type | default: '' %}
+          {% assign is_invited = false %}
+          {% if type == 'invited' or type == '招待講演' %}
+            {% assign is_invited = true %}
+          {% endif %}
+
+          <div class="presentation mb-3">
+            <h4 class="h6 mb-1">• {{ title }}</h4>
+            <div class="meeting-meta">
+              {{ event }}
+              {% if talk.location %} · {{ talk.location }}{% endif %}
+              {% if talk.date %} · {{ talk.date }}{% endif %}
+              {% if type %}
+                <span class="talk-type{% if is_invited %} talk-type-invited{% endif %}">({{ type }})</span>
+              {% endif %}
+            </div>
+            {% if talk.link %}
+              <div><a href="{{ talk.link }}" target="_blank" rel="noopener">{% if is_ja %}資料{% else %}Slides/Details{% endif %}</a></div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+
+      {% if seminars_lectures and seminars_lectures.size > 0 %}
+        <h3 class="category-heading mt-3">{% if is_ja %}セミナー/集中講義{% else %}Seminars/Intensive Lectures{% endif %}</h3>
+        {% for talk in seminars_lectures %}
           {% assign title = talk.title %}
           {% if is_ja and talk.title_ja %}{% assign title = talk.title_ja %}{% elsif talk.title_en %}{% assign title = talk.title_en %}{% endif %}
 

@@ -1,4 +1,32 @@
 - year: 2025
+  category: Seminars_Lectures
+  title_ja: 「星・惑星形成領域における磁気流体過程」
+  event_ja: 宇宙物理学特別講義２（集中講義）
+  location: 京都大学
+  date: "2025-12-22–24"
+  type: lecture
+- year: 2025
+  category: Seminars_Lectures
+  title_ja: "Connecting a Magnetized Disk to a Convective Low-mass Protostar"
+  event_ja: NAOJ Science Colloquium
+  location: NAOJ
+  date: "2025-7-23"
+  type: seminar
+- year: 2025
+  category: Seminars_Lectures
+  title_ja: "Connecting a Magnetized Disk to a Convective Low-mass Protostar: A Global 3D Model of Boundary Layer Accretion"
+  event_ja: weekly “star formation / young stars” reading group
+  location: Caltech
+  date: "2025-5-9"
+  type: online seminar
+- year: 2025
+  category: Domestic
+  title_ja: T Tauri型星の紫外・X線スペクトルの統一モデル
+  event_ja: 第３８回 理論懇シンポジウム
+  location: 筑波大学
+  date: "2025-12-17–19"
+  type: poster
+- year: 2025
   category: International
   title_en: "Star-disk connection: roles of stellar-scale processes"
   event_en: "WORKSHOP: Unstable and Time-Variable Accretion Flows from Core to Disk to Star"

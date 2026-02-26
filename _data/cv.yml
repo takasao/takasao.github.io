@@ -64,6 +64,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026.02
+      items:
+        - <a href="https://www.nature.com/commsphys/referees/outstanding-referees">Communications Physics Outstanding Reviewer</a>
     - year: 2017.06
       items:
-        - Division-E International Astronomical Union (IAU) PhD Prize
+        - <a href="https://www.iau.org/IAU/Iau/Science/Grants-and-Prizes/PhD-Prize.aspx">Division-E International Astronomical Union (IAU) PhD Prize</a>
