@@ -1,9 +1,37 @@
+- year: 2026
+  category: Domestic
+  title_ja: 宇宙線 x 星・惑星形成領域
+  event_ja: 宇宙線 x □□□研究会
+  location: 大阪公立大学
+  date: "2026-3-30-31"
+  type: invited
+- year: 2026
+  category: International
+  title_ja: "Stellar scale processes and impacts on disk evolution"
+  event_ja: Simulating Physics in Celestial Ecosystems (SPiCE) 2
+  location: ENS de Lyon, France
+  date: "2026-3-16-20"
+  type: invited
+- year: 2026
+  category: Domestic
+  title_ja: 星・円盤相互作用モデルの現状
+  event_ja: 惑星形成討論会2026
+  location: 東北大学
+  date: "2026-3-10-12"
+  type: oral
+- year: 2026
+  category: Domestic
+  title_ja: 古典的Tタウリ型星の高エネルギー放射スペクトルの理論モデル化と円盤進化への影響
+  event_ja: 天文学会2026年春季年会
+  location: 京都産業大学
+  date: "2026-3-4-7"
+  type: oral
 - year: 2025
   category: Seminars_Lectures
   title_ja: 「星・惑星形成領域における磁気流体過程」
   event_ja: 宇宙物理学特別講義２（集中講義）
   location: 京都大学
-  date: "2025-12-22–24"
+  date: "2025-12-22-24"
   type: lecture
 - year: 2025
   category: Seminars_Lectures
