@@ -1,4 +1,6 @@
 # al-folio
+
+[図解で見る紹介](docs/introduction.html) · [新しい Mac での導入](docs/my-ops-setup.md)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
