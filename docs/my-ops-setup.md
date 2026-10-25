@@ -1,6 +1,6 @@
 # 研究 Web サイト — 新しい Mac での導入
 
-対象は Apple Silicon Mac です。[紹介ページ](introduction.html)で役割と制約を確認できます。
+対象は Apple Silicon Mac です。公開repoのため内部紹介ページは作成しません。
 紹介と導入契約の正本は `.my-ops/catalogue.toml`、コードの取得先は bootstrap の `repos.tsv` です。
 
 ## 最初の準備
@@ -12,8 +12,8 @@ Git と uv を用意し、レビュー済みのコードを取得して repo の
 # 個別の既存手順を参照。自動インストール対象外。
 ```
 
-環境構築は明示操作です。通常起動は `uv run --locked --no-sync` を使い、暗黙の依存更新を防ぎます。
-既存 conda 環境は復旧用に保持し、標準起動には使いません。
+このサイトはPython/uvの導入対象ではありません。現在のJekyll/Ruby環境と配信方式は
+`.github/workflows/deploy.yml` と README を確認します。コード取得だけではbuild・公開しません。
 
 ## 設定とデータ
 
