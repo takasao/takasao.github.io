@@ -1,4 +1,54 @@
 - year: 2026
+  category: International
+  title_en: "Stellar-Scale Magnetohydrodynamic Processes and Their Impact on Planet-Forming Disks"
+  event_en: "10th Asia Pacific Conference on Plasma Physics (AAPPS-DPP2026)"
+  location: Busan, Korea
+  date: "2026-10-11–16"
+  type: invited
+  note: "Received the Young Researcher (U40) Award"
+- year: 2026
+  category: Domestic
+  title_ja: 原始星における角運動量輸送と突発現象のメカニズム
+  event_ja: 高エネルギー宇宙物理学研究会2026
+  location: 東京大学
+  date: "2026-10-05–07"
+  type: invited
+- year: 2026
+  category: Domestic
+  title_ja: 太陽・原始星の磁気活動から銀河研究へ
+  event_ja: 銀河系中心研究会2026
+  location: 九州産業大学
+  date: "2026-08-17–18"
+  type: invited
+- year: 2026
+  category: International
+  title_en: "Exploring the boundary between a convective protostar and its protoplanetary disk"
+  event_en: "The Formation of Stars and Planets in the Evolving Galaxy"
+  location: Okinawa, Japan
+  date: "2026-08-03–07"
+  type: oral
+- year: 2026
+  category: Seminars_Lectures
+  title_ja: "星形成領域における星スケールのプロセスと円盤進化への影響"
+  event_ja: 国立天文台プラズマセミナー
+  location: 国立天文台
+  date: "2026-07-23"
+  type: seminar
+- year: 2026
+  category: International
+  title_en: "Modelling the boundary between the convective protostar and the protoplanetary disk"
+  event_en: "Cool Stars 23"
+  location: Tokyo, Japan
+  date: "2026-06-15–19"
+  type: poster
+- year: 2026
+  category: Seminars_Lectures
+  title_ja: "Flaring activities in protostars"
+  event_ja: weekly meeting at The Italian National Institute for Astrophysics (INAF)
+  location: INAF
+  date: "2026-04-13"
+  type: online seminar
+- year: 2026
   category: Domestic
   title_ja: 宇宙線 x 星・惑星形成領域
   event_ja: 宇宙線 x □□□研究会
